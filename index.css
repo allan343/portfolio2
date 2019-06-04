@@ -1,0 +1,108 @@
+.topNav
+{
+/*    float: right;*/
+position: absolute;
+top: 20px;
+right: 20px;
+margin-top: 20px;
+}
+
+.topNav li {
+    display:block;
+    display: inline;
+    margin-right: 40px;
+  }
+
+.navigation{
+    top:0;
+    right:0;
+    background-color: black;
+    display:inline-block;
+    position: fixed;
+    width: 100%;
+   /* margin-right: 20px;*/
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.myName{
+    display: inline-block;
+    color: white;
+  
+margin-left: 40px;
+}
+
+.bio{
+    color: green;
+    text-decoration: none;
+}
+
+.portfolio{
+    color: purple;
+    text-decoration: none;
+}
+
+.github{
+    color: yellow;
+    text-decoration: none;
+}
+
+.linkedin{
+    color: blue;
+    text-decoration: none;
+}
+
+footer{
+
+    width: 100%;
+   
+   
+}
+
+.Bio{
+    margin-top: 200px;
+text-align: center;
+
+}
+
+.contact{
+  
+   /* position: absolute;
+ left: 100px;*/
+ display: block;
+
+    color:white;
+  
+    background-color: black;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+img{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.bio1,.bio2,.bio3{
+    display:block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.bio1 li{
+    display: inline-block;
+}
+.bio2 li{
+    display: inline-block;
+}
+
+.bio3 li{
+    display: block;
+}
+
+.bioImage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
