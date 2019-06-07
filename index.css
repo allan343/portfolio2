@@ -1,3 +1,7 @@
+body{
+    font-family: 'Proza Libre', sans-serif;
+}
+
 
 .topNav
 {
@@ -96,7 +100,7 @@ img{
     margin:0;
     width: 100%;
     margin-top: 25px;
-  
+   
 }
 
 
@@ -125,3 +129,4 @@ img{
     margin-left:auto;
     margin-right:auto;
 }
+
