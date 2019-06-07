@@ -1,3 +1,4 @@
+
 .topNav
 {
 /*    float: right;*/
@@ -60,11 +61,18 @@ footer{
 }
 
 .Bio{
+    width: 100%;
+    display:block;
     margin-top: 200px;
 text-align: center;
 
 }
 
+.bioDetails{
+    display:block;
+    margin-top: 60px;
+
+}
 .contact{
   
    /* position: absolute;
@@ -83,21 +91,17 @@ img{
     border: 1px solid black;
 }
 
-.bio1,.bio2,.bio3{
-    display:block;
-   margin-left: auto;
-   margin-right: auto;
+.bio1,.bio2{
+    padding:0;
+    margin:0;
+    width: 100%;
+    margin-top: 25px;
+  
 }
 
-.bio1 li{
-    display: inline-block;
-}
-.bio2 li{
-    display: inline-block;
-}
 
-.bio3 li{
-    display: block;
+li{
+    list-style:none;
 }
 
 .bioImage{
@@ -106,3 +110,21 @@ img{
     margin-right: auto;
 }
 
+.projects{
+    
+    text-align: center;
+}
+
+img{
+    max-width: 60%;
+}
+
+.projectDescription{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+.links{
+
+    display:block;
+}
