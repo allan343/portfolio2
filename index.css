@@ -68,7 +68,7 @@ footer{
 .Bio{
     width: 100%;
     display:block;
-    margin-top: 200px;
+    margin-top: 120px;
 text-align: center;
 
 }
@@ -76,6 +76,7 @@ text-align: center;
 .bioDetails{
     display:block;
     margin-top: 60px;
+    font-size: 30px;
 
 }
 .contact{
@@ -129,8 +130,19 @@ img{
     width: 60%;
     margin-left:auto;
     margin-right:auto;
+    font-size: 16px;
 }
 
 .projects{
 margin-top: 130px;
+
+}
+
+a{
+
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
 }
