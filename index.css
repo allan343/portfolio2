@@ -151,21 +151,38 @@ a:hover {
 }
 
 .hiddenNav{
+    position: absolute;
+    right:0;
+    top:40px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    display:none;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+}
+
+.hidden{
     display:none;
 }
 
 
 
-
 @media screen and (max-width: 700px) {
 
+    .hidden{
+        display:block;
+    }
+
     .hiddenNav{
+        display:none;
         position: absolute;
         right:0;
         top:40px;
         padding-top: 30px;
         padding-bottom: 80px;
-        display:none;
+     
         width: 100px;
         height: 100px;
         background-color: black;
@@ -192,4 +209,7 @@ a:hover {
         margin: 6px 0;
       }
 
+}
+
+@media screen and (max-width: 700px) {
 }
