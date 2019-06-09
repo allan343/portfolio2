@@ -36,6 +36,7 @@ body {
 .bio {
     color: green;
     text-decoration: none;
+  
 }
 
 .portfolio {
@@ -103,7 +104,12 @@ li {
 }
 
 #projects {
+    margin-top: 130px;
     text-align: center;
+}
+
+.projectTitle{
+    font-size: 30px;
 }
 
 img {
