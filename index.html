@@ -1,76 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE html>
-  <html lang = "en">  
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Allan Quiz App</title>
+    <title>Allan's portfolio</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="data.js"></script>
     <script src="index.js"></script>
 </head>
+
 <body>
     <header>
-      
-    <nav class="navigation">
+
+        <nav class="navigation">
             <div class='myName'>Allan Cheng</div>
-          
-        <ul class="topNav">
-            <a class="bio" href=""><li>Bio</li></a>
-            <a class="portfolio" href=""><li>Portfolio</li></a>
-            <a class ="github" href=""><li>Github</li></a>
-            <a class= "linkedin" href=""><li>LinkedIn</li></a>
-        </ul>
-        <button type="button" class="navbar-toggle" >
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>                        
-          </button>
-          <div class="hidden">
-          <ul class="hiddenNav">
-            <a class="bio" href=""><li>Bio</li></a>
-            <a class="portfolio" href=""><li>Portfolio</li></a>
-            <a class ="github" href=""><li>Github</li></a>
-            <a class= "linkedin" href=""><li>LinkedIn</li></a>
-        </ul>
-        </div>
-    </nav>
-    
-</header>
-<section class="Bio">
-<h1>Hi my name is Allan</h1>
-<img class ="bioImage" src="monkey.jpg" alt ="starting Page"> 
-<div class="bioDetails">
-Here's a little about me:
-<ul class="bio1">
-     <li>I love multiplayer games, sipping tea, and reading a book or two.</li>
-        <li> I also like catching up on Marvel movies.</li>
-</ul>
- <ul class="bio2">
-            <li>I enjoy working with HTML, CSS, JavaScript, jQuery.<li>
-            <li>I am a big believer for continuous self improvement.<li>
+
+            <ul class="topNav">
+                <a class="bio" href="#Bio">
+                    <li>Bio</li>
+                </a>
+                <a class="portfolio" href="#projects">
+                    <li>Portfolio</li>
+                </a>
+                <a class="github" href="https://github.com/allan343">
+                    <li>Github</li>
+                </a>
+                <a class="linkedin" href="">
+                    <li>LinkedIn</li>
+                </a>
+            </ul>
+            <button type="button" class="navbar-toggle">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+            </button>
+            <div class="hidden">
+                <ul class="hiddenNav">
+                    <a class="bio" href="#Bio">
+                        <li>Bio</li>
+                    </a>
+                    <a class="portfolio" href="#projects">
+                        <li>Portfolio</li>
+                    </a>
+                    <a class="github" href="https://github.com/allan343">
+                        <li>Github</li>
+                    </a>
+                    <a class="linkedin" href="">
+                        <li>LinkedIn</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section id="Bio">
+        <h1>Hi my name is Allan</h1>
+        <img class="bioImage" src="monkey.jpg" alt="starting Page">
+        <div class="bioDetails">
+            Here's a little about me:
+            <ul class="bio1">
+                <li>I love multiplayer games, sipping tea, and reading a book or two.</li>
+                <li> I also like catching up on Marvel movies.</li>
+            </ul>
+            <ul class="bio2">
+                <li>I enjoy working with HTML, CSS, JavaScript, jQuery.
+                <li>
+                <li>I am a big believer for continuous self improvement.
+                <li>
             </ul>
         </div>
-</section>
-<section class="projects">
-<div class="projectIntro">
-    <p> This is my</p>
-       
-    <h1>
-        Portfolio
-    </h1>
-</div>
-<img class ="projectImage" src="Project.PNG" alt ="Game of Thrones app"> 
-<p class="projectDescription">Find out how well you know your Game of Thrones trivia with this app that presents you a series of multiple-choice questions and displays your final score at the end.  This app was written in html, CSS, JavaScript and jQuery.  
-</p>
-<a  href="https://github.com/allan343/QuizApp">Github |</a><a href="https://allan343.github.io/QuizApp/"> Demo</a>
-</section>
-<footer>
-    <div class="contact">
-   My email: allanhfcheng@gmail.com
-</div>
-</footer>
+    </section>
+    <section id="projects">
+        <div class="projectIntro">
+            <p> This is my</p>
+
+            <h1>
+                Portfolio
+            </h1>
+        </div>
+        <img class="projectImage" src="Project.PNG" alt="Game of Thrones app">
+        <p class="projectDescription">Find out how well you know your Game of Thrones trivia with this app that presents
+            you a series of multiple-choice questions and displays your final score at the end. This app was written in
+            html, CSS, JavaScript and jQuery.
+        </p>
+        <a href="https://github.com/allan343/QuizApp">Github |</a><a href="https://allan343.github.io/QuizApp/">
+            Demo</a>
+    </section>
+    <footer>
+        <div class="contact">
+            My email: allanhfcheng@gmail.com
+        </div>
+    </footer>
 </body>
