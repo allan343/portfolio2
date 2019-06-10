@@ -29,28 +29,30 @@ body {
 .myName {
     display: inline-block;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     margin-left: 40px;
+    margin-top:10px;
+    padding-bottom: 20px;
 }
 
 .bio {
-    color: green;
+    color: white;
     text-decoration: none;
   
 }
 
 .portfolio {
-    color: purple;
+    color: white;
     text-decoration: none;
 }
 
 .github {
-    color: yellow;
+    color: white;
     text-decoration: none;
 }
 
 .linkedin {
-    color: blue;
+    color: white;
     text-decoration: none;
 }
 
@@ -71,6 +73,7 @@ footer {
     display: block;
     margin-top: 60px;
     font-size: 30px;
+    text-align: left;
 }
 
 .contact {
